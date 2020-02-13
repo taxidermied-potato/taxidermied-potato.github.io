@@ -136,14 +136,14 @@ class Content extends Component {
               </div>
               <div className="project-container">
                 <div className="project-item mx-5">
-                  <a href="https://taxidermied-potato.github.io/">
+                  <a href="https://taxidermied-potato.github.io/hell-quest">
                     <Avatar className="project-img" shape="square" size={272} src={hell} />
                   </a>
                 </div>
                 <div className="project-item project-card-right py-3 px-1">
                   <h4 className="my-1">
-                    <a href="https://taxidermied-potato.github.io/"> hell quest </a>
-                    <a className="m-1" href="https://github.com/taxidermied-potato/taxidermied-potato.github.io"><Icon type="github" /></a>
+                    <a href="https://taxidermied-potato.github.io/hell-quest"> hell quest </a>
+                    <a className="m-1" href="https://github.com/taxidermied-potato/hell-quest"><Icon type="github" /></a>
                     <a className="m-1"><Icon type="book" /></a>
                   </h4>
                   <p>
