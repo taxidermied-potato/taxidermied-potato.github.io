@@ -1,0 +1,32 @@
+.fcard1,
+.fcard2 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.fcard1 {
+  opacity: 0.3;
+  min-width: 80px;
+  min-height: 80px;
+  background-image: url('../images/steam.svg');
+}
+
+.fcard2 {
+  min-width: 180px;
+  min-height: 180px;
+  background-image: url('../images/mug.png');
+}
+
+.fp-container {
+  min-width: 270px;
+  min-height: 270px;
+  width: 18vw;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}

@@ -1,0 +1,43 @@
+.nav-container {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links {
+  display: inline-block;
+  font-family: "Nunito", sans-serif !important;
+  font-size: .85rem;
+}
+
+ul {
+  border-bottom-color: rgb(136, 146, 176) !important;
+  border-bottom-width: 0px !important;
+}
+
+li {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  border-bottom-width: 0px !important;
+}
+
+.ant-menu {
+  line-height: 2rem;
+  font-size: 0.8rem !important;
+}
+
+.ant-menu-item-disabled {
+  color: rgb(136, 146, 176) !important;
+}
+
+.ant-menu-item-disabled:hover {
+  color: rgb(136, 146, 176) !important;
+  cursor: default !important;
+}
+
+.date {
+  font-size: 0.8rem !important;
+}
+
+.timeline {
+  display: inline-block;
+}

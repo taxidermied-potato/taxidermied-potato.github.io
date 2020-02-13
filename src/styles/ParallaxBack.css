@@ -1,0 +1,84 @@
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.card1 {
+  min-width: 400px;
+  min-height: 250px;
+  width: 40vw;
+  height: 25vw;
+  background-image: url('../parallax/Back2.png');
+}
+
+.card2 {
+  min-width: 400px;
+  min-height: 250px;
+  width: 40vw;
+  height: 25vw;
+  background-image: url('../parallax/FirstLayer.png');
+}
+
+.card3 {
+  min-width: 400px;
+  min-height: 250px;
+  width: 40vw;
+  height: 25vw;
+  background-image: url('../parallax/SecondLayer.png');
+}
+
+.card4 {
+  min-width: 400px;
+  min-height: 250px;
+  width: 40vw;
+  height: 25vw;
+  background-image: url('../parallax/ThirdLayer.png');
+}
+
+.card5 {
+  min-width: 400px;
+  min-height: 250px;
+  width: 40vw;
+  height: 25vw;
+  background-image: url('../parallax/FourthLayer.png');
+}
+
+.card6 {
+  min-width: 500px;
+  min-height: 300px;
+  width: 50vw;
+  height: 30vw;
+  background-image: url('../parallax/Room2.png');
+}
+
+.card7 {
+  min-width: 30px;
+  min-height: 30px;
+  width: 3vw;
+  height: 3vw;
+  background-image: url('../parallax/Sun.png');
+}
+
+.p-container {
+  padding-top: 2vw;
+  min-width: 250px;
+  min-height: 150px;
+  width: 25vw;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

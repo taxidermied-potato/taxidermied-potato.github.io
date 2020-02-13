@@ -1,0 +1,16 @@
+.sidenav-container {
+    position: fixed;
+    top: 50vh;
+    left: 2rem;
+    margin-top: -60px;
+}
+
+.sidenav-container a {
+    font-family: 'Nunito', sans-serif;
+    font-size: .85rem;
+}
+
+.ant-anchor-link {
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}

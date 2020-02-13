@@ -1,0 +1,22 @@
+@import 'bootstrap-spacing.css';
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Nunito|Actor&display=swap');
+
+.App {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(136, 146, 176);
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+p {
+  font-family: 'Nunito', sans-serif!important;
+  font-size: .95rem;
+  line-height: 1.32rem;
+}
