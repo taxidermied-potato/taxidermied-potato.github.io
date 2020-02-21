@@ -88,7 +88,7 @@ class Content extends Component {
             </div>
           </div>
         </section>
-        <section className="content-section pt-6 pb-6" id="portfolio">
+        <section className="content-section py-6" id="portfolio">
           <div className="hero px-55">
             <div className="hero-item">
               <Divider orientation="left">
@@ -136,13 +136,13 @@ class Content extends Component {
               </div>
               <div className="project-container">
                 <div className="project-item mx-5">
-                  <a href="https://taxidermied-potato.github.io/hell-quest">
+                  <a href="https://altyin.com/hell-quest">
                     <Avatar className="project-img" shape="square" size={272} src={hell} />
                   </a>
                 </div>
                 <div className="project-item project-card-right py-3 px-1">
                   <h4 className="my-1">
-                    <a href="https://taxidermied-potato.github.io/hell-quest"> hell quest </a>
+                    <a href="https://altyin.com/hell-quest"> hell quest </a>
                     <a className="m-1" href="https://github.com/taxidermied-potato/hell-quest"><Icon type="github" /></a>
                     <a className="m-1"><Icon type="book" /></a>
                   </h4>
@@ -157,8 +157,8 @@ class Content extends Component {
               <div className="project-container">
                 <div className="project-item project-card-left py-3 px-3" style={{ textAlign: 'right' }}>
                   <h4 className="my-1">
-                    <a href="#home"> tax haven </a>
-                    <a className="m-1" href="https://gitlab.com/taxidermied_potato/canis_lupus_familiaris"><Icon type="gitlab" /></a>
+                    <a href="https://altyin.com/taxhaven"> tax haven </a>
+                    <a className="m-1" href="https://github.com/taxidermied-potato/taxhaven"><Icon type="github" /></a>
                     <a className="m-1"><Icon type="book" /></a>
                   </h4>
                   <p>
@@ -170,31 +170,31 @@ class Content extends Component {
                   </p>
                 </div>
                 <div className="project-item mx-5">
-                  <a href="#home">
+                  <a href="https://altyin.com/taxhaven">
                     <Avatar className="project-img" shape="square" size={272} src={th} />
                   </a>
                 </div>
               </div>
               <div className="project-container">
                 <div className="project-item mx-5">
-                  <a href="#home">
+                  <a href="https://altyin.com/tscheduler">
                     <Avatar className="project-img" shape="square" size={272} src={sched} />
                   </a>
                 </div>
                 <div className="project-item project-card-right py-3 px-1">
                   <h4 className="my-1">
-                    <a href="#home"> terpscheduler (wip) </a>
+                    <a href="https://altyin.com/tscheduler"> terpscheduler (wip) </a>
                     <a className="m-1" href="https://gitlab.com/taxidermied_potato/scheduler"><Icon type="gitlab" /></a>
                   </h4>
                   <p>
                     A scheduling service that allows for more advanced parsing than UMD's base course list. Compiles additional information from review aggregators and course GPA averages.
                   </p>
                   <p className="text-muted text-small">
-                    React, UMD.io
+                    React, Redux, UMD.io, Gatsby, GraphQL
                   </p>
-                </div>
-              </div>
-            </div>
+                </div>                
+              </div>         
+            </div>          
           </div>
         </section>
       </main>

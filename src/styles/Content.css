@@ -66,7 +66,7 @@ h3 span {
 
 h4 {
   margin-bottom: 0rem;
-  color:  rgb(136, 146, 176);
+  color: rgb(136, 146, 176);
   font-family: "Mansalva", cursive !important;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -74,7 +74,7 @@ h4 {
 
 h5 {
   margin-bottom: 0rem;
-  color:  #fff;
+  color: #fff;
   font-family: "Mansalva", cursive !important;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -85,7 +85,7 @@ h4:hover {
 }
 
 h4 a {
-  color:  rgb(201, 206, 221);
+  color: rgb(201, 206, 221);
 }
 
 .hero-image {
@@ -106,7 +106,7 @@ h4 a {
 
 .text-muted {
   color: rgba(197, 203, 221, 0.8) !important;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .half-img {
@@ -186,7 +186,7 @@ span {
 }
 
 .project-card-left {
-  padding-right: 6rem!important;
+  padding-right: 6rem !important;
   margin-right: -8rem;
   /* border: solid #fff;
   border-width: .5px 8px;
@@ -199,7 +199,7 @@ span {
 }
 
 .project-card-right {
-  padding-left: 6rem!important;
+  padding-left: 6rem !important;
   margin-left: -8rem;
   /* border: solid #fff;
   border-width: .5px 8px;
@@ -209,4 +209,25 @@ span {
   -moz-box-shadow: 5px 5px 15px rgb(0, 0, 0);
   -webkit-box-shadow: 5px 5px 15px rgb(0, 0, 0);
   box-shadow: 5px 5px 15px rgb(0, 0, 0); */
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+}
+
+.footer-text {
+  color: rgba(197, 203, 221, 0.8) !important;
+  margin-bottom: 0.5rem;
+  font-size: .85rem;
+}
+
+.footer svg {
+  color: rgba(197, 203, 221, 0.8) !important;
+  width: 1.5rem;
+  font-size: .85rem;
+}
+
+.footer svg:hover {
+  color: white!important;
 }
