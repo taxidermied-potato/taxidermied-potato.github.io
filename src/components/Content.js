@@ -74,7 +74,7 @@ class Content extends Component {
               </p>
             </div>
             <div className="hero-item ml-4 mr-5">
-              <img className="half-img" src={monkey} />
+              <img className="half-img" src={monkey} alt="code monkey"/>
             </div>
           </div>
         </section>
@@ -97,7 +97,7 @@ class Content extends Component {
               <div className="project-container mt-5">
                 <div className="project-item project-card-left py-3 px-3" style={{ textAlign: 'right' }}>
                   <h4 className="my-1">
-                    <a> fiftytwoeighty (wip) </a>
+                    <a href="https://gitlab.com/taxidermied_potato/dcc_capstone"> fiftytwoeighty (wip) </a>
                     <a className="m-1" href="https://gitlab.com/taxidermied_potato/dcc_capstone"><Icon type="gitlab" /></a>
                     <a className="m-1"
                       onClick={() => {
@@ -190,7 +190,7 @@ class Content extends Component {
                     A scheduling service that allows for more advanced parsing than UMD's base course list. Compiles additional information from review aggregators and course GPA averages.
                   </p>
                   <p className="text-muted text-small">
-                    React, Redux, UMD.io, Gatsby, GraphQL
+                    React, Redux, UMD.io, Gatsby
                   </p>
                 </div>                
               </div>         
