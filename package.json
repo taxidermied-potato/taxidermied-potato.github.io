@@ -17,7 +17,7 @@
     "react-spring": "^8.0.27",
     "typescript": "^3.8.2"
   },
-  "homepage": "https://github.com/taxidermied-potato/taxidermied-potato.github.io",
+  "homepage": "https://taxidermied-potato.github.io",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
